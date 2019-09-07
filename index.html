@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>alienbike</title>
+
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#ffffff">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#ffffff">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+		<style>
+			body { 
+				opacity: 0; 
+				overflow-x: hidden; 
+			} 
+			html { 
+				background-color: #ffffff; 
+			}
+		</style>
+	</head>
+	<body class="ishome">
+		
+    <header class="header">
+
+			<div class="container">
+
+				<div class="header__composition">
+					<a href="#" class="header__logo logo">
+						<img src="img/logo.png" alt="Логотип">
+					</a>
+					<div class="header__top-menu top-menu">
+						<div class="top-menu__top">
+							<div class="top-menu__phones">
+								<a href="tel:+78003505570">8-800-350-55-70</a>
+								<a href="tel:+78124256454">+7 (812) 425-64-54</a>
+							</div>
+							<div class="top-menu__menu">
+								<ul>
+									<li><a class="button top-menu__menu-link  top-menu__menu-link--active" href="#"><img src="img/icon-track.svg"><span>Доставка по всей России</span></a></li>
+									<li><a class="button top-menu__menu-link" href="#"><img src="img/icon-key.svg"><span>Прокат</span></a></li>
+									<li><a class="button top-menu__menu-link" href="#"><img src="img/icon-tools.svg"><span>Мастерская</span></a></li>
+									<li class="top-menu__drop-about">
+										<button class="button top-menu__menu-link top-menu__button-about" href="#"><img src="img/arrow-down.svg"><span>О нас</span></button>
+										<div class="dropdown-child">
+											<a href="#">Подраздел 1</a>
+											<a href="#">Подраздел 2</a>
+											<a href="#">Подраздел 3</a>
+											<a href="#">Подраздел 4</a>
+											<a href="#">Подраздел 5</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="top-menu__bottom">
+							<div class="top-menu__bottom-left">
+								<div class="top-menu__mobile-menu mobile-menu">
+									<button class="hamburger hamburger--collapse" type="button">
+										<span class="hamburger-box">
+											<span class="hamburger-inner"></span>
+										</span>
+									</button>
+									<div class="mobile-menu__lists">
+										<ul class="mobile-menu__top-list">
+											<li><a class="mobile-menu__login" href="#">Личный кабинет</a></li>
+											<li><a href="#">Бренды</a></li>
+											<li><a href="#">Мастерская</a></li>
+											<li><a href="#">Прокат</a></li>
+											<li><a href="#">Оптовые продажи</a></li>
+											<li><a class="mobile-menu__sale" href="#">Распродажа</a></li>
+										</ul>
+										<ul class="mobile-menu__bottom-list">
+											<li><a href="#">О компании</a></li>
+											<li><a href="#">Мероприятия</a></li>
+											<li><a href="#">Контакты</a></li>
+											<li><a href="#">Отзывы</a></li>
+											<li><a href="#">Вакансии</a></li>
+											<li><a href="#">Партнеры</a></li>
+											<li><a href="#">Оферта</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="top-menu__mobile-search">
+									<a href="#" class="top-menu__search-link">
+										<img src="img/icon-search.svg">
+									</a>
+								</div>
+								<div class="top-menu__city">
+									<span>Ваш город: </span>
+									<button class="top-menu__city-button button">Санкт-Петербург</button>
+								</div>
+								<div class="top-menu__address">
+									<a href="#" class="top-menu__address-link">
+										<picture>
+											<source srcset="img/icon-marker-mobile.svg" media="(max-width: 789px)">
+											<img src="img/icon-marker.svg">
+										</picture>
+										<span>Адреса магазинов</span>
+									</a>
+								</div>
+							</div>
+							<div class="top-menu__bottom-right">
+								<div class="top-menu__search">
+									<form class="top-menu__search-form" action="#">
+										<input name="s" placeholder="Название" type="search">
+										<button class="button top-menu__search-button" type="submit">
+											<img src="img/icon-search.svg">
+											<span>Найти</span>
+										</button>
+									</form>
+								</div>
+								<div class="top-menu__login">
+									<a class="top-menu__login-link" href="#"><img src="img/icon-person.svg"><span>Личный кабинет</span></a>
+								</div>
+								<div class="top-menu__contacts">
+									<a href="#" class="top-menu__contacts-link">
+										<img src="img/icon-phone.svg">
+									</a>
+								</div>
+								<div class="top-menu__basket basket">
+									<a href="#" class="basket__link button">
+										<div class="basket__count">
+											<img src="img/icon-basket.svg">
+											<span class="basket__total-count">0</span>
+										</div>
+										<div class="basket__sum">
+											<span class="basket__total-sum">0 р</span>
+											<span class="basket__sum-text">корзина пуста</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="header-catalog">
+					<ul class="header-catalog__list">
+						<li>
+							<a href="#" class="header-catalog__link">
+								<button class="hamburger hamburger--collapse" type="button">
+									<span class="hamburger-box">
+										<span class="hamburger-inner"></span>
+									</span>
+									<span class="header-catalog__hamburger-text">Каталог</span>
+								</button>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="header-catalog__link">Велосипеды</a>
+							<div class="header-catalog__link-menu link-menu">
+								<div class="link-menu__left">
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Велосипеды</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Педали</h3>
+										<span class="link-menu__models-count">37 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Привод</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Успокоители и натяжители</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="link-menu__right">
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Рамы, вилки, зад. амортизаторы</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Успокоители и натяжители</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Велосипеды</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</li>
+						<li>
+							<a href="#" class="header-catalog__link">BMX</a>
+							<div class="header-catalog__link-menu link-menu">
+								<div class="link-menu__left">
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Велосипеды</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Педали</h3>
+										<span class="link-menu__models-count">37 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Привод</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Успокоители и натяжители</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="link-menu__right">
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Рамы, вилки, зад. амортизаторы</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Успокоители и натяжители</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Велосипеды</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+								</div>	
+							</div>
+						</li>
+						<li><a href="#" class="header-catalog__link">Самокаты</a></li>
+						<li><a href="#" class="header-catalog__link">Комплектующие</a></li>
+						<li><a href="#" class="header-catalog__link">Инструменты</a></li>
+						<li><a href="#" class="header-catalog__link">Аксессуары</a></li>
+						<li><a href="#" class="header-catalog__link">Экипировка</a></li>
+						<li><a href="#" class="header-catalog__link">Активный отдых</a></li>
+						<li><a href="#" class="header-catalog__link">Зимние товары</a></li>
+						<li><a href="#" class="header-catalog__link">Тренажеры</a><div class="header-catalog__link-menu link-menu">
+								<div class="link-menu__left">
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Велосипеды</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Педали</h3>
+										<span class="link-menu__models-count">37 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Привод</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Успокоители и натяжители</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="link-menu__right">
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Рамы, вилки, зад. амортизаторы</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Успокоители и натяжители</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Обода</a></li>
+										</ul>
+									</div>
+									<div class="link-menu__wrap">
+										<h3 class="link-menu__title">Велосипеды</h3>
+										<span class="link-menu__models-count">367 моделей</span>
+										<ul class="link-menu__list">
+											<li><a href="#">Втулки</a></li>
+											<li><a href="#">Колеса в сборе</a></li>
+											<li><a href="#">Обода</a></li>
+											<li><a href="#">Для бескамерных колес</a></li>
+											<li><a href="#">Спицы и ниппеля</a></li>
+										</ul>
+									</div>
+								</div>	
+							</div></li>
+						<li>
+							<a href="#" class="header-catalog__link link-sale">Sale</a>
+							<div class="header-catalog__link-menu link-menu">
+									<div class="link-menu__left">
+										<div class="link-menu__wrap">
+											<h3 class="link-menu__title">Велосипеды</h3>
+											<span class="link-menu__models-count">367 моделей</span>
+											<ul class="link-menu__list">
+												<li><a href="#">Втулки</a></li>
+												<li><a href="#">Колеса в сборе</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Для бескамерных колес</a></li>
+												<li><a href="#">Спицы и ниппеля</a></li>
+											</ul>
+										</div>
+										<div class="link-menu__wrap">
+											<h3 class="link-menu__title">Педали</h3>
+											<span class="link-menu__models-count">37 моделей</span>
+											<ul class="link-menu__list">
+												<li><a href="#">Втулки</a></li>
+												<li><a href="#">Колеса в сборе</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Для бескамерных колес</a></li>
+												<li><a href="#">Спицы и ниппеля</a></li>
+												<li><a href="#">Спицы и ниппеля</a></li>
+												<li><a href="#">Спицы и ниппеля</a></li>
+											</ul>
+										</div>
+										<div class="link-menu__wrap">
+											<h3 class="link-menu__title">Привод</h3>
+											<span class="link-menu__models-count">367 моделей</span>
+											<ul class="link-menu__list">
+												<li><a href="#">Втулки</a></li>
+												<li><a href="#">Колеса в сборе</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Для бескамерных колес</a></li>
+												<li><a href="#">Успокоители и натяжители</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="link-menu__right">
+										<div class="link-menu__wrap">
+											<h3 class="link-menu__title">Рамы, вилки, зад. амортизаторы</h3>
+											<span class="link-menu__models-count">367 моделей</span>
+											<ul class="link-menu__list">
+												<li><a href="#">Втулки</a></li>
+												<li><a href="#">Колеса в сборе</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Для бескамерных колес</a></li>
+												<li><a href="#">Успокоители и натяжители</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Обода</a></li>
+											</ul>
+										</div>
+										<div class="link-menu__wrap">
+											<h3 class="link-menu__title">Велосипеды</h3>
+											<span class="link-menu__models-count">367 моделей</span>
+											<ul class="link-menu__list">
+												<li><a href="#">Втулки</a></li>
+												<li><a href="#">Колеса в сборе</a></li>
+												<li><a href="#">Обода</a></li>
+												<li><a href="#">Для бескамерных колес</a></li>
+												<li><a href="#">Спицы и ниппеля</a></li>
+											</ul>
+										</div>
+									</div>	
+								</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</header>
+
+    <main class="main-content">
+			
+			<section class="main-composition">
+
+				<div class="container">
+					<div class="flex-container">
+						<div class="main-composition__slider main-slider">
+							<div class="main-slider__item" style="background-image: url('img/slider_photo_bike.png')">
+								<div class="main-slider__info">
+									<h1>Сломался байк?</h1>
+									<p>Комфортная езда на велосипеде – это, в первую очередь, тщательно подобранные комплектующие.</p>
+								</div>
+							</div>
+							<div class="main-slider__item" style="background-image: url('img/slider_photo_bike.png')">
+								<div class="main-slider__info">
+									<h1>Сломался байк? Слайд №2</h1>
+									<p>Комфортная езда на велосипеде – это, в первую очередь, тщательно подобранные комплектующие.</p>
+								</div>
+							</div>
+							<div class="main-slider__item" style="background-image: url('img/slider_photo_bike.png')">
+								<div class="main-slider__info">
+									<h1>Сломался байк? Слайд №3</h1>
+									<p>Комфортная езда на велосипеде – это, в первую очередь, тщательно подобранные комплектующие.</p>
+								</div>
+							</div>
+							<div class="main-slider__item" style="background-image: url('img/slider_photo_bike.png')">
+								<div class="main-slider__info">
+									<h1>Сломался байк? Слайд №4</h1>
+									<p>Комфортная езда на велосипеде – это, в первую очередь, тщательно подобранные комплектующие.</p>
+								</div>
+							</div>
+							<div class="main-slider__item" style="background-image: url('img/slider_photo_bike.png')">
+								<div class="main-slider__info">
+									<h1>Сломался байк? Слайд №5</h1>
+									<p>Комфортная езда на велосипеде – это, в первую очередь, тщательно подобранные комплектующие.</p>
+								</div>
+							</div>
+						</div>
+						<div class="main-composition__filter filter">
+							<div class="filter-wrap">
+								<div class="filter-tabs">
+									<div class="filter__button-wrap">
+										<button class="button filter__button-mobile">фильтры</button>
+									</div>
+									<div class="tab tab-bike">
+										<input type="radio" id="tab1" name="tab-group" checked>
+										<label for="tab1" class="tab-title tab-title__bike"><img src="img/icon-bike.svg"><span>Подбор велосипеда</span></label> 
+										<section class="tab-content">
+
+										 <form action="#" class="tab-form tab-form__bike">
+											<div class="tab-row">
+												<div class="tab-row__selects">
+
+													<div class="tab-row__selects-button">
+														<span>Тип велосипеда</span>
+														<span><img src="img/arrow-down.svg"></span>
+														<div class="tab-row__selects-menu">
+															<ul>
+																<li>
+																	<input class="tab-row__selects-checkbox"  type="checkbox" id="for1" name="for1" checked>
+																	<label for="for1">Первый тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for2" name="for2">
+																	<label for="for2">Второй тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for3" name="for3">
+																	<label for="for3">Третий тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for4" name="for4">
+																	<label for="for4">Четвертый тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for5" name="for5">
+																	<label for="for5">Пятый тип</label>
+																</li>
+															</ul>
+														</div>
+													</div>
+
+													<div class="tab-row__selects-button">
+														<span>Бренд</span>
+														<span><img src="img/arrow-down.svg"></span>
+														<div class="tab-row__selects-menu">
+															<ul>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for6" name="for6" checked>
+																	<label for="for6">Первый тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for7" name="for7">
+																	<label for="for7">Второй тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for8" name="for8">
+																	<label for="for8">Третий тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for9" name="for9">
+																	<label for="for9">Четвертый тип</label>
+																</li>
+																<li>
+																	<input class="tab-row__selects-checkbox" type="checkbox" id="for10" name="for10">
+																	<label for="for10">Пятый тип</label>
+																</li>
+															</ul>
+														</div>
+													</div>
+
+												</div>
+
+												<div class="tab-checkbox">
+													<div>
+														<input class="tab-row__selects-checkbox" type="checkbox" id="for-men" name="for-men" checked>
+														<label for="for-men">Мужской</label>
+													</div>
+													<div>
+														<input class="tab-row__selects-checkbox" type="checkbox" id="for-women" name="for-women">
+														<label for="for-women">Женский</label>
+													</div>
+													<div>
+														<input class="tab-row__selects-checkbox" type="checkbox" id="unisex" name="unisex">
+														<label for="unisex">Унисекс</label>
+													</div>
+													<div>
+														<input class="tab-row__selects-checkbox" type="checkbox" id="for-child" name="for-child">
+														<label for="for-child">Детский</label>
+													</div>
+												</div>
+											</div>
+
+											<div class="tab-row">
+												<div class="tab-row__slider-price slider-price">
+													<div class="minCost">
+														<input type="text" id="minCost" value="5000"/>
+													</div>
+													<div class="maxCost">
+														<input type="text" id="maxCost" value="500000"/>
+													</div>
+													<div id="slider"></div>
+												</div>
+											</div>
+
+											<button class="tab-form__button button">Показать</button>
+
+										</form>
+
+									 </section>
+									</div> 
+									<div class="tab tab-gear">
+										<input type="radio" id="tab2" name="tab-group">
+										<label for="tab2" class="tab-title tab-title__gear"><img src="img/icon-gear.svg"><span>Подбор запчастей</span></label> 
+										<section class="tab-content">
+
+											<form action="#" class="tab-form tab-form__bike">
+												<div class="tab-row">
+													<div class="tab-row__selects">
+
+														<div class="tab-row__selects-button">
+															<span>Группа</span>
+															<span><img src="img/arrow-down.svg"></span>
+															<div class="tab-row__selects-menu">
+																<ul>
+																	<li>
+																		<input class="tab-row__selects-checkbox"  type="checkbox" id="for1" name="for1" checked>
+																		<label for="for1">Первый тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for2" name="for2">
+																		<label for="for2">Второй тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for3" name="for3">
+																		<label for="for3">Третий тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for4" name="for4">
+																		<label for="for4">Четвертый тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for5" name="for5">
+																		<label for="for5">Пятый тип</label>
+																	</li>
+																</ul>
+															</div>
+														</div>
+
+														<div class="tab-row__selects-button">
+															<span>Подгруппа</span>
+															<span><img src="img/arrow-down.svg"></span>
+															<div class="tab-row__selects-menu">
+																<ul>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for6" name="for6" checked>
+																		<label for="for6">Первый тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for7" name="for7">
+																		<label for="for7">Второй тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for8" name="for8">
+																		<label for="for8">Третий тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for9" name="for9">
+																		<label for="for9">Четвертый тип</label>
+																	</li>
+																	<li>
+																		<input class="tab-row__selects-checkbox" type="checkbox" id="for10" name="for10">
+																		<label for="for10">Пятый тип</label>
+																	</li>
+																</ul>
+															</div>
+														</div>
+
+													</div>
+
+												<div class="tab-row">
+													<div class="tab-row__slider-price slider-price">
+														<div class="minCost">
+															<input type="text" id="minCostGear" value="5000"/>
+														</div>
+														<div class="maxCost">
+															<input type="text" id="maxCostGear" value="500000"/>
+														</div>
+														<div id="slider__gear"></div>
+													</div>
+												</div>
+
+												<button class="tab-form__button button">Показать</button>
+
+											</form>
+
+										</section>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="categories">
+				<div class="container">
+					<h2 class="section__title">Основные категории</h2>
+					<div class="categories__accordion">
+						<div class="categories__accordion-menu drop-down">
+							<div class="drop-down__item">
+								<div class="drop-down__tab">
+									<div class="drop-down__tab-left">
+										<img src="img/type-of-bike.svg">
+										<span class="drop-down__tab-title">Велосипеды</span>
+									</div>
+									<div class="drop-down__tab-right">
+										<img src="img/arrow-down.svg">
+									</div>
+								</div>
+								<div class="drop-down__text-block">
+									<div class="drop-down__text">
+										<ul>
+											<li><a href="#" class="drop-down__text-link">Велосипеды</a></li>
+											<li><a href="#" class="drop-down__text-link">BMX</a></li>
+											<li><a href="#" class="drop-down__text-link">Самокаты</a></li>
+											<li><a href="#" class="drop-down__text-link">Комплектующие</a></li>
+											<li><a href="#" class="drop-down__text-link">Инструменты</a></li>
+											<li><a href="#" class="drop-down__text-link">Аксессуары</a></li>
+											<li><a href="#" class="drop-down__text-link">Экипировка</a></li>
+											<li><a href="#" class="drop-down__text-link">Активный отдых</a></li>
+											<li><a href="#" class="drop-down__text-link">Зимние товары</a></li>
+											<li><a href="#" class="drop-down__text-link">Тренажеры</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="drop-down__item">
+								<div class="drop-down__tab">
+									<div class="drop-down__tab-left">
+										<img src="img/scooter.svg">
+										<span class="drop-down__tab-title">Самокаты</span>
+									</div>
+									<div class="drop-down__tab-right">
+										<img src="img/arrow-down.svg">
+									</div>
+								</div>
+								<div class="drop-down__text-block">
+									<div class="drop-down__text">
+										<ul>
+											<li><a href="#" class="drop-down__text-link">Велосипеды</a></li>
+											<li><a href="#" class="drop-down__text-link">BMX</a></li>
+											<li><a href="#" class="drop-down__text-link">Самокаты</a></li>
+											<li><a href="#" class="drop-down__text-link">Комплектующие</a></li>
+											<li><a href="#" class="drop-down__text-link">Инструменты</a></li>
+											<li><a href="#" class="drop-down__text-link">Аксессуары</a></li>
+											<li><a href="#" class="drop-down__text-link">Экипировка</a></li>
+											<li><a href="#" class="drop-down__text-link">Активный отдых</a></li>
+											<li><a href="#" class="drop-down__text-link">Зимние товары</a></li>
+											<li><a href="#" class="drop-down__text-link">Тренажеры</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="drop-down__item">
+								<div class="drop-down__tab">
+									<div class="drop-down__tab-left">
+										<img src="img/type-of-bike.svg">
+										<span class="drop-down__tab-title">Велосипеды</span>
+									</div>
+									<div class="drop-down__tab-right">
+										<img src="img/arrow-down.svg">
+									</div>
+								</div>
+								<div class="drop-down__text-block">
+									<div class="drop-down__text">
+										<ul>
+											<li><a href="#" class="drop-down__text-link">Велосипеды</a></li>
+											<li><a href="#" class="drop-down__text-link">BMX</a></li>
+											<li><a href="#" class="drop-down__text-link">Самокаты</a></li>
+											<li><a href="#" class="drop-down__text-link">Комплектующие</a></li>
+											<li><a href="#" class="drop-down__text-link">Инструменты</a></li>
+											<li><a href="#" class="drop-down__text-link">Аксессуары</a></li>
+											<li><a href="#" class="drop-down__text-link">Экипировка</a></li>
+											<li><a href="#" class="drop-down__text-link">Активный отдых</a></li>
+											<li><a href="#" class="drop-down__text-link">Зимние товары</a></li>
+											<li><a href="#" class="drop-down__text-link">Тренажеры</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="drop-down__item">
+								<div class="drop-down__tab">
+									<div class="drop-down__tab-left">
+										<img src="img/type-of-bike.svg">
+										<span class="drop-down__tab-title">Велосипеды</span>
+									</div>
+									<div class="drop-down__tab-right">
+										<img src="img/arrow-down.svg">
+									</div>
+								</div>
+								<div class="drop-down__text-block">
+									<div class="drop-down__text">
+										<ul>
+											<li><a href="#" class="drop-down__text-link">Велосипеды</a></li>
+											<li><a href="#" class="drop-down__text-link">BMX</a></li>
+											<li><a href="#" class="drop-down__text-link">Самокаты</a></li>
+											<li><a href="#" class="drop-down__text-link">Комплектующие</a></li>
+											<li><a href="#" class="drop-down__text-link">Инструменты</a></li>
+											<li><a href="#" class="drop-down__text-link">Аксессуары</a></li>
+											<li><a href="#" class="drop-down__text-link">Экипировка</a></li>
+											<li><a href="#" class="drop-down__text-link">Активный отдых</a></li>
+											<li><a href="#" class="drop-down__text-link">Зимние товары</a></li>
+											<li><a href="#" class="drop-down__text-link">Тренажеры</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="categories__tabs tabs">
+						<ul class="categories__list">
+							<li class="categories__tabs-link active">Велосипеды</li>
+							<li class="categories__tabs-link">BMX</li>
+							<li class="categories__tabs-link">Самокаты</li>
+							<li class="categories__tabs-link">Комплектующие</li>
+							<li class="categories__tabs-link">Инструменты</li>
+							<li class="categories__tabs-link">Аксессуары</li>
+							<li class="categories__tabs-link">Экипировка</li>
+							<li class="categories__tabs-link">Активный отдых</li>
+							<li class="categories__tabs-link">Зимние товары</li>
+							<li class="categories__tabs-link">Тренажеры</li>
+						</ul>
+						<div class="tabs-content">
+							<div class="tabs-content__item active">
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Горные</a>
+										<span class="categories__models-count">100 моделей</span>
+									</div>
+									<div class="tabs-content__item-links">
+										<ul>
+											<li><a href="#">Беговые</a></li>
+											<li><a href="#">Детские 1.5 - 3</a></li>
+											<li><a href="#">Детские 3 - 5</a></li>
+											<li><a href="#">Детские 5 - 9</a></li>
+											<li><a href="#">Все</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Детские</a>
+										<span class="categories__models-count">200 моделей</span>
+									</div>
+									<div class="tabs-content__item-links">
+										<ul>
+											<li><a href="#">Беговые</a></li>
+											<li><a href="#">Детские 1.5 - 3</a></li>
+											<li><a href="#">Детские 3 - 5</a></li>
+											<li><a href="#">Детские 5 - 9</a></li>
+											<li><a href="#">Все</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Подростковые</a>
+										<span class="categories__models-count">300 моделей</span>
+									</div>
+									<div class="tabs-content__item-links">
+										<ul>
+											<li><a href="#">Беговые</a></li>
+											<li><a href="#">Детские 1.5 - 3</a></li>
+											<li><a href="#">Детские 3 - 5</a></li>
+											<li><a href="#">Детские 5 - 9</a></li>
+											<li><a href="#">Все</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Дорожные</a>
+										<span class="categories__models-count">400 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Горные</a>
+										<span class="categories__models-count">500 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Горные</a>
+										<span class="categories__models-count">500 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Горные</a>
+										<span class="categories__models-count">500 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Горные</a>
+										<span class="categories__models-count">500 моделей</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content__item">
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Детские</a>
+										<span class="categories__models-count">200 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Подростковые</a>
+										<span class="categories__models-count">300 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Дорожные</a>
+										<span class="categories__models-count">400 моделей</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content__item">
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Детские</a>
+										<span class="categories__models-count">200 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Подростковые</a>
+										<span class="categories__models-count">300 моделей</span>
+									</div>
+								</div>
+								<div class="tabs-content__item-wrap">
+									<a href="#" class="tabs-content__item-image" style="background-image: url('img/bike-photo.png')"></a>
+									<div class="tabs-content__item-kind">
+										<a href="#" class="categories__link">Дорожные</a>
+										<span class="categories__models-count">400 моделей</span>
+									</div>
+								</div>
+							</div>
+							<div class="tabs-content__item">Содержимое 4-й вкладки</div>
+							<div class="tabs-content__item">Содержимое 5-й вкладки</div>
+							<div class="tabs-content__item">Содержимое 6-й вкладки</div>
+							<div class="tabs-content__item">Содержимое 7-й вкладки</div>
+							<div class="tabs-content__item">Содержимое 8-й вкладки</div>
+							<div class="tabs-content__item">Содержимое 9-й вкладки</div>
+							<div class="tabs-content__item">Содержимое 10-й вкладки</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="products">
+
+				<div class="container">
+
+					<h2 class="section__title">Товары</h2>
+					<h5 class="section__subtitle section__title">Хиты</h5>
+
+					<div class="products__wrap">
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section class="products">
+
+				<div class="container">
+
+					<h5 class="section__subtitle section__title">Распродажа</h5>
+
+					<div class="products__wrap">
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item products__item-novelty">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block existence">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+						<div class="products__item">
+							<a href="#" class="products__link">
+								<div class="products__image" style="background-image: url('img/hit_bike_photo.jpg')"></div>
+								<h6 class="products__subtitle">Велосипеды</h6>
+								<h4 class="products__name">Silverback Sala (2019)</h4>
+							</a>
+							<span class="products__price-block">
+								<span class="products__old-price">1 000 000</span>
+								<span class="products__price">1 000 000</span>
+							</span>
+							<div class="products__like-block">
+								<a href="#"><img src="img/heart.svg"></a>
+								<a href="#"><img src="img/graph.svg"></a>
+							</div>
+							<div class="products__basket">
+								<button class="button products__button">в корзину</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section class="section know-more">
+				<div class="container">
+					<h1 class="section__title know-more__title">Готовы купить велосипед своей мечты? Выбирайте!</h1>
+					<p class="know-more__pharagraph">
+							Что такое AlienBike? Это одна из крупнейших сетей веломагазинов нашей страны, которая предлагает 
+							наиболее широкий ассортимент велосипедов, велоаксессуаров и велозапчастей на территории 
+							Северно-Западного округа. Более того, в настоящее время мы осуществляем продажу брендовых 
+							сноубордов, лыж как беговых так и горных и самокатов.
+					</p>	
+				</div>
+			</section>
+
+			<section class="section news">
+				<div class="container">
+
+					<div class="news__top-block">
+						<h1 class="section__title">Новости</h1>
+						<a class="news__read-all" href="#">Читать все</a>
+					</div>
+
+					<div class="news__main-wrap">
+
+						<div class="news__main">
+							<a href="#" class="news__main-block">
+								<div class="news__image" style="background-image: url('img/news_bg.jpg')">
+									<div class="news__date">24 августа 2019</div>
+								</div>
+								<div class="news__text-block">
+									<h3 class="news__title products__name">Распродажа Back to school</h3>
+									<span class="news__discounts">Cкидки до 50%</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="news__main">
+							<a href="#" class="news__main-block">
+								<div class="news__image" style="background-image: url('img/news_bg.jpg')">
+									<div class="news__date">24 августа 2019</div>
+								</div>
+								<div class="news__text-block">
+									<h3 class="news__title products__name">Распродажа Back to school1</h3>
+									<span class="news__discounts">Cкидки до 50%</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="news__main">
+							<a href="#" class="news__main-block">
+								<div class="news__image" style="background-image: url('img/news_bg.jpg')">
+									<div class="news__date">24 августа 2019</div>
+								</div>
+								<div class="news__text-block">
+									<h3 class="news__title products__name">Распродажа Back to school2</h3>
+									<span class="news__discounts">Cкидки до 50%</span>
+								</div>
+							</a>
+						</div>
+						
+						<div class="news__main">
+							<a href="#" class="news__main-block">
+								<div class="news__image" style="background-image: url('img/news_bg.jpg')">
+									<div class="news__date">24 августа 2019</div>
+								</div>
+								<div class="news__text-block">
+									<h3 class="news__title products__name">Распродажа Back to school3</h3>
+									<span class="news__discounts">Cкидки до 50%</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="news__main">
+							<a href="#" class="news__main-block">
+								<div class="news__image" style="background-image: url('img/news_bg.jpg')">
+									<div class="news__date">24 августа 2019</div>
+								</div>
+								<div class="news__text-block">
+									<h3 class="news__title products__name">Распродажа Back to school4</h3>
+									<span class="news__discounts">Cкидки до 50%</span>
+								</div>
+							</a>
+						</div>
+
+						<div class="news__main">
+							<a href="#" class="news__main-block">
+								<div class="news__image" style="background-image: url('img/news_bg.jpg')">
+									<div class="news__date">24 августа 2019</div>
+								</div>
+								<div class="news__text-block">
+									<h3 class="news__title products__name">Распродажа Back to school5</h3>
+									<span class="news__discounts">Cкидки до 50%</span>
+								</div>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+
+			<section class="section reviews">
+					<div class="container">
+	
+						<div class="reviews__top-block news__top-block">
+							<h1 class="section__title">Отзывы</h1>
+							<a class="reviews__read-all news__read-all" href="#">Читать все</a>
+						</div>
+
+						<div class="reviews__slider">
+	
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+						<div class="reviews__main-wrap">
+							<div class="reviews__main-block">
+								<div class="reviews__label">Отзыв</div>
+								<h3 class="products__name reviews__name">Педали HT PA12 Nano-P, пластик</h3>
+								<span class="reviews__subtitle">Шоссейный велосипед</span>
+								<img class="reviews__image" src="img/detail.jpg">
+								<p class="reviews__description">
+									Купил по совету продавца. Понравились тем,
+									что они хорошо держат ногу. Педали очень лёгкие и
+									на пром подшипнике. Откатался сезон, не появилось 
+									и намёка на люфт.
+								</p>
+								<a href="#" class="reviews__link">Читать полностью</a>
+							</div>
+						</div>
+
+					</div>
+	
+					</div>
+				</section>
+
+		</main>
+
+    <footer class="footer">
+
+		</footer>
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.min.css">
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
